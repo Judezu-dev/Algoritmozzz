@@ -19,8 +19,8 @@ while i <= filas:
             factr = factr * r
             r = r - 1
 
-
-    nr = i - j
+        nr = i - j
+        
 #factorial de n-r
     factnr = 1
     while nr > 0:
