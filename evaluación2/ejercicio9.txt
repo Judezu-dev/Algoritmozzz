@@ -1,0 +1,19 @@
+Con base en la simulación generada, se observan los siguientes fenómenos en el sistema dinámico:
+
+Divergencia y Sensibilidad a Condiciones Iniciales (Efecto Mariposa): 
+En el Escenario Base, los 10 puntos inician agrupados en una diminuta región alrededor de (5, 5, 5) (con variaciones de solo 10^{-3}). 
+Inicialmente, todas las trayectorias parecen seguir la misma línea como si fueran una sola partícula. 
+Sin embargo, después de algunos segundos, las trayectorias se separan drásticamente, saltando entre los dos lóbulos del atractor en tiempos completamente distintos. 
+Esto demuestra que en sistemas caóticos deterministas, la mínima imprecisión en el estado inicial impide predecir a largo plazo la trayectoria exacta.   
+
+Ausencia de Periodicidad Verdadera: Aunque en los regímenes caóticos las partículas orbitan repetidamente formando las características "alas de mariposa", nunca regresan de forma exacta sobre una órbita anterior. 
+Giran espiralmente hacia afuera de un lóbulo hasta que alcanzan un límite y son expulsadas hacia el otro lóbulo, sin patrón repetitivo simple.   
+
+Existencia de Puntos Fijos (Variación 1, rho = 14): Al reducir el número de Rayleigh (parámetro rho) de 28 a 14, el sistema pierde su naturaleza caótica. 
+En lugar de generar el atractor extraño de dos lóbulos, las partículas que comenzaron cercanas espiralan conjuntamente hacia dentro hasta detenerse en uno de los puntos de equilibrio estable, demostrando una transición de fase geométrica en el comportamiento del sistema diferencial.   
+
+Efecto de cada parámetro (Variaciones 2 y 3):Variación 2 (sigma = 14): Incrementar el parámetro sigma (relacionado con el número de Prandtl de los fluidos) mantiene el régimen caótico global, pero expande la dispersión de las órbitas y cambia las velocidades relativas en las direcciones X y Y. 
+El atractor se percibe más "ancho" o con rotaciones de distinta densidad.   
+
+Variación 3 (beta = 4): Aumentar el parámetro beta a 4 (relacionado con el factor de forma geométrico del fluido) aumenta la tasa de disipación. 
+Esto causa que las trayectorias converjan con mayor fuerza hacia la región central (el plano Z), comprimiendo verticalmente la geometría del atractor (achata las alas de la mariposa) respecto al escenario base.  

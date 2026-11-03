@@ -32,8 +32,8 @@ def generar_ordenamientos(caracteres, n, ruta_actual, usados, resultados):
 
 def main():
     try:
-        cadena_entrada = input().strip()
-        n = int(input().strip())
+        cadena_entrada = input("Entrada: ").strip()
+        n = int(input("número de elementos de cada combinación: ").strip())
 
         # 1. Limpieza de caracteres repetidos (conserva la primera aparición)
         cadena_limpia = limpiar_cadena(cadena_entrada)
