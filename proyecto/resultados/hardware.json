@@ -1,0 +1,13 @@
+{
+  "sistema": "Linux-7.0.0-43-generic-x86_64-with-glibc2.39",
+  "cpu": "13th Gen Intel(R) Core(TM) i5-13420H",
+  "python": "3.12.3",
+  "numpy": "2.5.4",
+  "numba": "0.68.0",
+  "nucleos_logicos": 12,
+  "nucleos_fisicos": 8,
+  "repeticiones": 7,
+  "semilla": 2026,
+  "cargas": 32,
+  "nota": "JIT y dibujo excluidos. CPU f\u00edsica y fracci\u00f3n serial requieren interpretaci\u00f3n."
+}
